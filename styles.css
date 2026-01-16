@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Main container */
+    .testimonial-container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #f5f5f5; /* Section background */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Individual testimonial box */
+    .testimonial {
+      background-color: #fff; /* White box */
+      padding: 25px 30px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Testimonial text */
+    .testimonial p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+      margin: 0 0 10px 0;
+    }
+
+    /* Author */
+    .author {
+      text-align: right;
+      font-style: italic;
+      font-weight: 500;
+      color: #555;
+    }
